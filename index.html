@@ -1,57 +1,286 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Dist by hao3721</title>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Dist</h1>
-      <h2 class="project-tagline">brother</h2>
-      <a href="https://github.com/hao3721/dist" class="btn">View on GitHub</a>
-      <a href="https://github.com/hao3721/dist/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/hao3721/dist/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <title>浏览器介绍页</title>
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+</head>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#nav-about">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">现代浏览器预览</a>
+        </div>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="nav-about">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">综述</a></li>
+                <li><a href="#">简述</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">特点<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#chrome">Chrome</a></li>
+                        <li><a href="#firefox">Firefox</a></li>
+                        <li><a href="#safari">Safari</a></li>
+                        <li><a href="#opera">Opera</a></li>
+                        <li><a href="#ie">IE</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" data-toggle="modal" data-target="#about">关于</a></li>
+            </ul>
 
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
+        </div>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+    </div>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/hao3721/dist">Dist</a> is maintained by <a href="https://github.com/hao3721">hao3721</a>.</span>
+</nav>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    </ol>
 
-    </section>
 
-  
-  </body>
-</html>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="image/chrome.jpg" alt="chrome">
+
+            <div class="carousel-caption">
+                <h1>chrome</h1>
+
+                <p>Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。</p>
+
+                <p><a class="btn btn-lg btn-primary" href="http://www.google.cn/intl/zh-CN/chrome/browser/"
+                      role="button" target="_blank">点我下载</a></p>
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/firefox.png" alt="firefox">
+
+            <div class="carousel-caption">
+                <h1>Firefox</h1>
+
+                <p>Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器。</p>
+
+                <p><a class="btn btn-lg btn-primary" href="http://www.firefox.com.cn/download/" target="_blank"
+                      role="button">点我下载</a></p>
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/safari.jpg" alt="safari">
+
+            <div class="carousel-caption">
+                <h1>Safari</h1>
+
+                <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器。</p>
+
+                <p><a class="btn btn-lg btn-primary" href="http://www.apple.com/cn/safari/" target="_blank"
+                      role="button">点我下载</a></p>
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/opera.jpg" alt="...">
+
+            <div class="carousel-caption">
+                <h1>Opera</h1>
+
+                <p>Opera浏览器，是一款挪威Opera Software ASA公司制作的支持多页面标签式浏览的网络浏览器。</p>
+
+                <p><a class="btn btn-lg btn-primary" href="http://www.opera.com/zh-cn" target="_blank"
+                      role="button">点我下载</a></p>
+
+            </div>
+        </div>
+        <div class="item">
+            <img src="image/ie.jpg" alt="ie">
+
+            <div class="carousel-caption">
+                <h1>IE</h1>
+
+                <p>Internet Explorer，简称 IE，是微软公司推出的一款网页浏览器。</p>
+
+                <p><a class="btn btn-lg btn-primary" href="http://ie.microsoft.com/" target="_blank"
+                      role="button">点我下载</a></p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">上一页</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">下一页</span>
+    </a>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-circle" src="image/chrome-sm.jpg" alt="chrome">
+
+            <h2>Chrome</h2>
+
+            <p>Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。</p>
+
+            <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="image/firefox-sm.jpg" alt="firefox">
+
+            <h2>Firefox</h2>
+
+            <p>Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器。</p>
+
+            <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+
+        </div>
+        <div class="col-md-4">
+            <img class="img-circle" src="image/safari-sm.jpg" alt="safari">
+
+            <h2>Safari</h2>
+
+            <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器。</p>
+
+            <p><a class="btn btn-default" href="#" role="button">点我下载</a></p>
+
+        </div>
+    </div>
+    <hr id="hr1">
+</div>
+<div class="container">
+    <ul class="nav nav-tabs" role="tablist" id="tab-list">
+        <li role="presentation" class="active"><a href="#chrome" role="tab" data-toggle="tab">Chrome</a></li>
+        <li role="presentation"><a href="#firefox" role="tab" data-toggle="tab">Firefox</a></li>
+        <li role="presentation"><a href="#safari" role="tab" data-toggle="tab">Safari</a></li>
+        <li role="presentation"><a href="#opera" role="tab" data-toggle="tab">Opera</a></li>
+        <li role="presentation"><a href="#ie" role="tab" data-toggle="tab">IE</a></li>
+    </ul>
+
+
+    <div class="tab-content dreamer">
+    <div role="tabpanel" class="tab-pane active " id="chrome">
+        <div class="row">
+            <div class="col-md-5"><img class="img-circle" src="image/chrome-sm.jpg" alt="chrome"></div>
+            <div class="col-md-7 text-me">
+                <h2 class="tab-title">Google Chrome <span>使用最广的浏览器</span></h2>
+
+                <p>Google Chrome，又称Google浏览器，是一个由Google（谷歌）公司开发的网页浏览器。
+                    该浏览器是基于其他开源软件所撰写，包括WebKit，目标是提升稳定性、速度和安全性，并创造出简单且有效率的使用者界面。</p>
+            </div>
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="firefox">
+        <div class="row">
+            <div class="col-md-7 text-me"><h2 class="tab-title">Mozilla Firefox <span>美丽的狐狸</span></h2>
+
+                <p>Mozilla Firefox，中文名通常称为“火狐”或“火狐浏览器”，是一个开源网页浏览器，
+                    使用Gecko引擎（非ie内核），支持多种操作系统如Windows、Mac和linux。</p>
+            </div>
+
+            <div class="col-md-5"><img class="img-circle" src="image/firefox-sm.jpg" alt="chrome"></div>
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="safari">
+        <div class="row">
+            <div class="col-md-5"><img class="img-circle" src="image/safari-sm.jpg" alt="chrome"></div>
+            <div class="col-md-7 text-me"><h2 class="tab-title">Safari<span>用户首选</span></h2>
+
+                <p>Safari，是苹果计算机的最新操作系统Mac OS X中的浏览器，使用了KDE的KHTML作为浏览器的运算核心。
+                    Safari在2003年1月7日首度发行测试版，并成为Mac OS X v10.3与之后的默认浏览器，也是iPhone与IPAD和iPod touch的指定浏览器。</p></div>
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="opera">
+        <div class="row">
+            <div class="col-md-7 text-me"><h2 class="tab-title">Opera  <span>小众但易用</span></h2>
+
+                <p>Opera浏览器，是一款挪威Opera Software ASA公司制作的支持多页面标签式浏览的网络浏览器。
+                    是跨平台浏览器可以在Windows、Mac和Linux三个操作系统平台上运行。</p></div>
+            <div class="col-md-5"><img class="img-circle" src="image/opera-sm.jpg" alt="chrome"></div>
+        </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="ie">
+        <div class="row">
+            <div class="col-md-5">
+                <img class="img-circle" src="image/ie-sm.jpg" alt="chrome">
+            </div>
+            <div class="col-md-7 text-me">
+                <h2 class="tab-title">IE <span>windos系统</span></h2>
+
+                <p>Internet Explorer，原称Microsoft Internet Explorer(6版本以前)和Windows Internet
+                    Explorer(7，8，9，10版本)，
+                    简称IE，是美国微软公司推出的一款网页浏览器。它采用的排版引擎(俗称内核)为Trident。</p>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+<footer>
+    <div class="container">
+    <p class="pull-right">回到顶部</p>
+    <p>@ 2016 Chunlong Liu</p> </div>
+</footer>
+
+<div class="modal fade" id="about">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title">关于</h4>
+            </div>
+            <div class="modal-body">
+                <p>Bootstrap，来自 Twitter，是目前很受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。
+                    Bootstrap提供了优雅的HTML和CSS规范，它即是由动态CSS语言Less写成。</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">好的</button>
+
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#nav-about .dropdown-menu a").click(function(){
+            var href = $(this).attr("href");
+            $("#tab-list a[href= '"+ href+" ']").tab("show");
+
+        })
+    })
+</script>
+</body>
